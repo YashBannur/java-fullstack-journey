@@ -1,3 +1,4 @@
+package JAVA;
 public class Student {
      int id;
      String name;
@@ -13,11 +14,14 @@ public class Student {
         System.out.println("Name: "+ name);
         System.out.println("Class: " + class1);
     }
+    void display(){
+        System.out.println("Constructor Called Successfully");
+    }
 
 
     public static void main(String[] args) {
         Student s = new Student(1, "Yash", "10th");
-        
+        s.display();
     }
     
 }

@@ -1,5 +1,4 @@
 package JAVA;
-import java.util.Arrays;
 class Binary {
     public static void main(String[] args) {
         int arr[] = new int [100];
