@@ -1,0 +1,23 @@
+/* Margin
+Padding
+Border
+Width
+Height */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+.card{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    width: 200px;
+    height: 150px;
+    background-color:blueviolet;
+    
+}
+.card p {
+    font-size: 14px;
+    color:bisque;
+}
