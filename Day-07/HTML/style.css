@@ -1,0 +1,146 @@
+/* Portfolio Page Styles */
+:root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --text: #e2e8f0;
+    --accent: #3b82f6;
+    --muted: #94a3b8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.15);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav h1 {
+    font-size: 1.6rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+section {
+    margin-top: 30px;
+    padding: 25px;
+    background: var(--card);
+    border-radius: 12px;
+    border: 1px solid rgba(226, 232, 240, 0.1);
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    color: #f8fafc;
+}
+
+.about p,
+.skills p,
+.education p,
+.projects p,
+.contact p {
+    margin-bottom: 12px;
+}
+
+.grid {
+    display: grid;
+    gap: 18px;
+}
+
+.skills-list,
+.project-list,
+.education-list {
+    display: grid;
+    gap: 12px;
+}
+
+.card {
+    padding: 16px;
+    border-radius: 10px;
+    background: rgba(15, 23, 42, 0.9);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.card strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #ffffff;
+}
+
+.skill-pill {
+    display: inline-block;
+    padding: 8px 12px;
+    background: rgba(59, 130, 246, 0.15);
+    color: #bfdbfe;
+    border-radius: 999px;
+    font-size: 0.95rem;
+}
+
+a.button,
+a.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    color: #ffffff;
+    background: var(--accent);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+a.button:hover,
+a.project-link:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    margin: 30px 0 10px;
+    color: var(--muted);
+}
+
+@media (min-width: 720px) {
+    .grid-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
