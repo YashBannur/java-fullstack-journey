@@ -1,0 +1,31 @@
+/* Center headings
+Change font sizes
+Add colors
+Use block and inline elements intentionally */
+
+.container {
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+h2 {
+    font-size: 28px;
+    color: #038a9f;
+}
+
+.nav-links {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.about p {
+    font-size: 18px;
+    color: #a313ab;
+    line-height: 1.6;
+}
