@@ -1,0 +1,77 @@
+/* Center headings
+Change font sizes
+Add colors
+Use block and inline elements intentionally */
+
+.container {
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+h2 {
+    font-size: 28px;
+    color: #038a9f;
+}
+
+.nav-links {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.about p {
+    font-size: 18px;
+    color: #a313ab;
+    line-height: 1.6;
+}
+
+#contact {
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.button {
+    padding: 1px;
+    margin: 1px;
+    width: 100px;
+    height: 20px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: beige;
+    color: #a313ab;
+}
+
+.button :hover {
+    background-color: #a313ab;
+    color: beige;
+}
+
+.project-link {
+    text-decoration: none;
+     padding: 1px;
+    margin: 1px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: beige;
+    color: #a313ab;
+    
+}
+
+.project-link:hover{
+    background-color: #a313ab;
+    color: beige;
+}
