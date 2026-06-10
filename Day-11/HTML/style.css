@@ -1,0 +1,132 @@
+/* static
+relative
+absolute */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.nav-links a {
+    margin-left: 16px;
+    text-decoration: none;
+    color: #0f172a;
+}
+
+section {
+    margin: 28px 0;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+}
+
+.skills-list,
+.education-list,
+.project-list,
+.position-demo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.skill-pill,
+.card,
+.position-box {
+    border-radius: 10px;
+    padding: 14px 18px;
+    background: #eef2ff;
+}
+
+.skill-pill {
+    display: inline-block;
+}
+
+.card {
+    flex: 1 1 300px;
+    background: #e2e8f0;
+}
+
+.project-link,
+.button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 18px 0;
+    color: #475569;
+}
+
+.position-demo {
+    position: relative;
+    min-height: 190px;
+    border: 2px dashed #94a3b8;
+    padding: 20px;
+    background: #f8fafc;
+}
+
+.position-box {
+    width: 160px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.static-box {
+    position: static;
+    background: #334155;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: #0f766e;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #c2410c;
+}
+
+.position-examples p {
+    margin-top: 18px;
+}
