@@ -1,0 +1,33 @@
+body {
+   min-height: 100vh;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(45deg, green, yellow, red);
+   background-attachment: fixed;
+}
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px;
+    background-color: #4102455d;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+.Card h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.Card:hover {
+    transform: scale(1.05);
+    background-color: #b985bd5d;
+    transition: transform 0.3s ease-in-out;
+}
+
